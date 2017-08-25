@@ -1,0 +1,7 @@
+filebeat.prospectors:
+- input_type: log
+  paths:
+    - /vagrant/data/logs2017-08-17-16-17-17-20BD466285157946
+    #- /var/log/graylog/nginx/error.log
+output.logstash:
+  hosts: ["localhost:5043"]
